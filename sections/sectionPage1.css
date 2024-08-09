@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.logoContainer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logoContainer img{
+    width: 75px;
+    height: 75px;
+}
+
+.text1{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-weight: bold;
+    margin-top: -30px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.text1 h1{
+    font-size: 80px;
+}
+
+strong{
+    font-size: 45px;
+   position: relative;
+   bottom: 7px;
+}
+
+.downloadBut{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    
+}
+
+.downloadBut button{
+    width: 220px;
+    height: 50px;
+   background-color:rgb(17, 76, 226);
+   color: white;
+   outline: none;
+   border: none;
+   border-radius: 10vw;
+   font-size: medium; 
+  font-weight: bold;
+}
+
+.downloadBut button:hover{
+    cursor: pointer;
+    background-color: rgb(74, 74, 182);
+   color: white;
+
+}
+.text1{
+    text-align: center;
+}
+
+.textbut{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+    color: rgb(163, 158, 158);
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.animationCon{
+    background-color: rgba(68, 201, 68, 0.468);
+    padding: 10px 20px;
+    border-radius: 9vw;
+    font-size: 60px;
+        
+}
+
+.animationBut{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.animationBut .butanim{
+    width: 150px;
+    height: 30px;
+    background-color: skyblue;
+    border: none;
+    outline: none;
+    border-radius: 10vw;
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+}
+
+.checkBoxContainer,.lastText{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    bottom: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.checkBoxContainer h4,.lastText h4{
+    color: rgba(106, 104, 104, 0.904);
+}
+
+.checkBoxContainer span,.lastText .span,.lastText span{
+    color:rgb(17, 76, 226);
+}
+
+input[type]{
+    width: 20px;
+    height: 20px;
+}
+
+.lastText .span{
+    position: relative;
+    left: 70px;
+}
+
+.lastText .span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
